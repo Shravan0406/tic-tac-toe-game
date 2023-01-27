@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myMap() {
+            var mapProp = {
+                center: new google.maps.LatLng(51.508742, -0.120850),
+                zoom: 5,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
+    </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVMj2rHCBZPTva81lsUu7n7e6_VJV9kHU&callback=myMap"></script>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 70%;
+            width: 70%;
+            box-shadow: 2px 2px 8px black;
+            background-color: aliceblue;
+            transform: translate(20%,20%);
+            padding: 8px;
+            
+        }
+        h2{
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+        img{
+            height: 30px;
+            width: 30px;
+            margin: 8px;
+        }
+        a{
+            text-decoration: none;
+            
+        }
+        .ig{
+            margin-top: -30px;
+            margin-left: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <br><br><br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="">
+        <div class="ig"><a href="https://www.instagram.com/navyadhanasri/">Navya Dhana Sri</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="https://www.instagram.com/shravan_0406/">Bandi shravan</a>
+        </div><br>
+        <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="">
+        <div class="ig">
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Mail Us</a>
+        </div>
+        <br>
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="">
+        <div class="ig"><a href="https://www.linkedin.com/feed/">Shravan</a></div><br>
+        <img src="https://cdn-icons-png.flaticon.com/512/4781/4781517.png" alt="">
+        <div class="ig"><a href="https://www.google.com/maps/place/Vardhaman+College+of+Engineering/@17.2530058,78.3038139,16z/data=!4m5!3m4!1s0x3bcb90c8da620f9d:0x19d0d79257022687!8m2!3d17.2547143!4d78.3064666">Vardhaman college of engineering</a></div>
+        <br><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Phone_icon.png" alt="">
+        <div class="ig">9381202487, 90638 01405</div>
+    </div>
+    
+    
+</body>
+</html>
